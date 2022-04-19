@@ -1,4 +1,5 @@
 import requests
+import cowsay
 
 
 def fact():
@@ -7,3 +8,7 @@ def fact():
 
     result = response.json().get('value', 'Error')
     return result
+
+
+def cow_fact():
+    return cowsay.cow(fact())

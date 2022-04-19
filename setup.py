@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='chucknorrisfacts',
-    version='0.0.2',
+    version='0.0.3',
     author='José Patrício de Sousa Filho',
     author_email='jpegx100@gmail.com',
     description='Chuck Norris facts package',
@@ -17,5 +17,5 @@ setuptools.setup(
     },
     license='MIT',
     packages=['chucknorrisfacts'],
-    install_requires=['requests'],
+    install_requires=['requests', 'cowsay'],
 )
