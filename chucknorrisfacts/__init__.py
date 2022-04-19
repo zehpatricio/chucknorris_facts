@@ -1,0 +1,1 @@
+from chucknorrisfacts.chucknorrisfacts import fact

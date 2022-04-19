@@ -1,3 +1,0 @@
-
-def chuck():
-    return "asdf"

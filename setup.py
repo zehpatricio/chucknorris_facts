@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='chucknorrisfacts',
-    version='0.0.1',
+    version='0.0.2',
     author='José Patrício de Sousa Filho',
     author_email='jpegx100@gmail.com',
     description='Chuck Norris facts package',
