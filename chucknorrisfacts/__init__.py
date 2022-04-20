@@ -1,1 +1,1 @@
-from chucknorrisfacts.chucknorrisfacts import fact
+from chucknorrisfacts.chucknorrisfacts import *
