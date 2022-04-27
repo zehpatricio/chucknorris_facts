@@ -1,1 +1,0 @@
-from chucknorrisfacts.chucknorrisfacts import *

@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='chucknorrisfacts',
+    name='chuckfacts',
     version='0.0.3',
     author='José Patrício de Sousa Filho',
     author_email='jpegx100@gmail.com',
@@ -16,6 +16,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/zehpatricio/chucknorris_facts/issues"
     },
     license='MIT',
-    packages=['chucknorrisfacts'],
+    packages=['chuckfacts'],
     install_requires=['requests', 'cowsay'],
 )
